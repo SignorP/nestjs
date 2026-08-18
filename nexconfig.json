@@ -1,0 +1,38 @@
+{
+    "name": "nestjs",
+    "version": "0.0.1",
+    "description": "Empty NestJS Recipe",
+    "keywords": [
+        "nex",
+        "nestjs",
+        "backend",
+        "schema",
+        "recipe"
+    ],
+    "files": [
+        "src",
+        "recipes/nestjs",
+        "nest-cli.json",
+        "package.json",
+        "tsconfig.build.json",
+        "tsconfig.json"
+    ],
+    "setup": {
+        "scripts": ["bun install"],
+        "files": {
+            "src": {
+                "app.controller.ts": "src",
+                "app.module.ts": "src",
+                "app.service.ts": "src",
+                "main.ts": "src"
+            },
+            "recipes/nestjs": {
+                "README.md": "recipes/nestjs"
+            },
+            "nest-cli.json": ".",
+            "package.json": ".",
+            "tsconfig.build.json": ".",
+            "tsconfig.json": "."
+        }
+    }
+}
